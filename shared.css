@@ -1,0 +1,132 @@
+/* global*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.back-drop {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+/* main-footer section */
+.main-footer {
+  background-color: black;
+  padding: 32px;
+  margin-top: 48px;
+}
+.main-footer__links {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.main-footer__link {
+  display: inline-block;
+  margin: 0 16px;
+}
+.main-footer__link a {
+  color: white;
+  text-decoration: none;
+}
+.main-footer__link a:hover,
+:active {
+  color: #ccc;
+}
+
+/* main navigation bar header */
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2ddf5c;
+  padding: 8px 16px;
+  z-index: 1;
+}
+.main-header > div {
+  display: inline-block;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.main-header__brand {
+  color: #0e4f1f;
+  font-size: 22px;
+  text-decoration: none;
+  width: 44px;
+  /* height: 22px; */
+  display: inline-block;
+}
+.main-header__brand img {
+  width: 100%;
+  /* height: 100%; */
+  /* width: 22px; */
+  /* height: 22px; */
+}
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 74px);
+  vertical-align: middle;
+}
+.main-nav__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav__item {
+  display: inline-block;
+  margin: 0 16px;
+}
+.main-nav__item a {
+  text-decoration: none;
+  color: #0e4f1f;
+  font-weight: bold;
+  padding: 4px 0;
+}
+
+.main-nav__item a:hover,
+a:active {
+  color: white;
+}
+.main-nav__item--cta a {
+  background-color: #ff1b68;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+  background-color: white;
+  color: #ff1b68;
+  border: none;
+}
+
+/*button  */
+
+.button {
+  color: white;
+  background-color: #0e4f1f;
+  cursor: pointer;
+  font: inherit;
+  border: 1.5px solid #0e4f1f;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.button:hover,
+.button:active {
+  background-color: white;
+  color: #0e4f1f;
+}
+.button:focus {
+  outline: none;
+}

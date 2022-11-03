@@ -1,0 +1,47 @@
+.menu {
+  margin-top: 48px;
+}
+.crunchy-chicken {
+  background-image: url("../Photos/fried-chicken.png");
+  background-color: red;
+}
+.grilled-chicken {
+  background-image: url("../Photos/grilled-chicken.jpg");
+  background-color: yellow;
+  background-size: cover;
+}
+.nachos {
+  background-image: url("../Photos/nachos.jpg");
+  background-color: black;
+}
+.roasted-pork {
+  background-image: url("../Photos/roasted-pork-billy.jpg");
+  background-color: blue;
+}
+.menu__image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  margin: 16px;
+  border-radius: 16px;
+  width: 20%;
+  height: 350px;
+  position: relative;
+}
+.menu--list {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 16px;
+}
+.menu--list__title {
+  margin: 4px;
+}
+.menu--list__price {
+  margin: 4px;
+}
+.menu--list__description {
+  color: rgb(190, 181, 181);
+  margin: 4px;
+}
